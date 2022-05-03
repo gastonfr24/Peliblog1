@@ -1,0 +1,169 @@
+body {
+background-color: #fafbfc;
+transform: scale(1);
+}
+
+.page-header {
+    color: black;
+    background-color: white;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+    border-color: white;
+    
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: black;
+    font-size: 36pt;
+    text-decoration: none;
+    
+}
+.info{
+    color: #5e5e5e;
+    font-weight: normal;
+}
+.content {
+    margin-left: 40px;
+}
+
+h1  {
+    font-family: 'Lobster', cursive;
+}
+
+h2, h3, h4 {
+    font-weight: bold;
+color: black;
+}
+
+p{
+ 
+color: black;
+}
+
+
+
+.date {
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
+    color:#ffffff;
+    background-color: white;
+    border-radius: 15px;
+    border: 15px solid;
+    text-align: center;
+}
+
+.post h2 a, .post h2 a:visited {
+    color: black;
+    font-size: 26pt;
+}
+
+img.redimension {
+  width:550px;
+  height:auto;
+  text-align: center;
+  border-radius: 10px;
+}
+.grande{
+    margin-bottom: 70px;
+    color:#ffffff;
+    background-color: white;
+    border-width: 10px}
+
+.columna{
+	float: right;
+	width: 25%;
+	margin: 40px 0px ;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+
+}
+.mia{
+    width:220px;
+    height:auto;
+    float: inline-start;
+    border-radius: 240px;
+
+
+
+}
+.menu{
+	background: black;
+	padding: 5px 15px;
+	text-align: center;
+    
+}
+
+
+
+.seccion{
+	float: left;
+	width: 70%;
+	margin: 20px;
+	padding: 20px;
+	background: #fafbfc;}
+
+blockquote{
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.menu{
+	background: white;
+	padding: 0px 15px;
+	text-align: center;
+    margin: 15px;
+}
+
+.menu li{
+
+    display: inline-block;
+	list-style: none;
+	padding: 0px 5px;
+	font: bold italic 14px verdana, sans-serif;
+	color: #ffffff
+    
+}
+
+.menu li img{
+    width: 35px;
+    height: auto;
+}
+
+
+.catalogo{
+    width: 300px;
+    height: auto;
+    border-radius: 7px;
+}
+
+.catalog{
+        margin-bottom: 70px;
+    color:#9b1d1d;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+
+}

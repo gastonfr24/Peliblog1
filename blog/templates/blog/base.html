@@ -1,0 +1,47 @@
+{% load static %}
+<html>
+    <head>
+        <title>PelisBlog</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{% static 'blog.css' %}">
+    </head>
+    <body>
+        <div class="page-header">
+            <h1><a href="/">PeliBlog</a></h1>
+            <section class="seccion">
+      
+                <article></article>
+        <div class="content container">
+            <div class="row">
+                <div class="col-md-8">
+                {% block content %}
+                {% endblock %}
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <aside class="columna">
+            <blockquote> <a href="{% url 'me' %}"><h2>Sobre Mi</h2></a></blockquote>
+          <a href="{% url 'me' %}"><img class="mia" src="/media/imgs/1ef58610abde324c81165d2f41c08b18.jpg"  ></a> 
+           
+           <ul class="menu">
+               <li><a href="https://www.instagram.com/gastonfr24/" target="_bank"><img src="\media\imgs\instagram (1).png" alt=""></a></li>
+               <li><a href="https://twitter.com/elxokas" target="_blank"><img src="\media\imgs\gorjeo.png" alt=""></a></li>
+               <li><a href="https://web.facebook.com/gastonfranco24" target="_blank"><img src="\media\imgs\logotipo-circular-de-facebook.png" alt=""></a></li>
+               <li><a href="https://www.twitch.tv/elmiillor" target="_blank"><img src="\media\imgs\twitch.png" alt=""></a></li>
+           </ul>
+           <a class="twitter-timeline" data-width="300" data-height="620" data-theme="light" href="https://twitter.com/NetflixLAT?ref_src=twsrc%5Etfw">Tweets by NetflixLAT</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+         <a href="{% url 'catalogo' %">  <h3>Catálogo</h3></a>
+         <a href="{% url 'catalogo' %}">   <img class="catalogo" src="\media\imgs\catalogo.jpg" alt=""></a>
+
+
+            {% for post in posts %}
+            {% endfor %}
+        
+        </aside>
+    </body>
+</html>
